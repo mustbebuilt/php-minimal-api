@@ -1,7 +1,10 @@
 # PHP Minimal API
 
-Inspired by the .net 6 Minimal API here is a PHP/MySQL version for handling restful calls.
+Minimal RESTful API in PHP.
 
-Based on the MySQL Database available from https://github.com/mustbebuilt/data-for-films/blob/main/movies.sql 
+Data based on the MySQL Database available from https://github.com/mustbebuilt/data-for-films/blob/main/movies.sql 
 
 Works with the Fetch API frontend https://github.com/mustbebuilt/fetch-minimal-api-demo
+
+Inspired by the .net 6 Minimal API at:
+https://github.com/mustbebuilt/SimpleAPI
