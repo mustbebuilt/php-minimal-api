@@ -1,6 +1,10 @@
 <?php
 header( 'Content-Type: application/json; charset=utf-8' );
-require( "../../../../../s-includes/shu-mysqli-conn.inc.php" );
+$hostname = "xxxx";
+$username = "xxxx";
+$password = "xxxx";
+$database = "xxxx";
+$mysqli = new mysqli($hostname, $username, $password, $database);
 //check for querystring
 $getFilmID = $_GET[ 'filmID' ] ?? null;
 // GET all
