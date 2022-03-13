@@ -7,7 +7,6 @@ header( "Access-Control-Allow-Origin: http://localhost:8080" );
 header( 'Access-Control-Allow-Methods: POST, GET, DELETE, PUT, OPTIONS' );
 header( 'Access-Control-Allow-Headers: token, Content-Type' );
 // LOAD Database Settings
-header( 'Content-Type: application/json; charset=utf-8' );
 $hostname = "xxxx";
 $username = "xxxx";
 $password = "xxxx";
